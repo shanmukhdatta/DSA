@@ -17,9 +17,10 @@ def reverse_recursive(head):
     return new_head
 
 
+
 #-------------- iterative approach ---------------------------
 class solution:
-    def reverseList(self, head : Optional[ListNode])->Optional[ListNode]:
+    def reverseList(self, head ):
         prev = None
         curr = head
         while curr:
@@ -28,3 +29,4 @@ class solution:
             prev = curr
             curr = next_node
         return prev
+
